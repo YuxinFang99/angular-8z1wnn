@@ -1,0 +1,17 @@
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { LoginInPageComponent } from './login-in-page/login-in-page.component';
+import { AppComponent } from './app.component';
+import { BrowserModule } from '@angular/platform-browser';
+@NgModule({
+  imports: [
+    CommonModule,
+  
+    BrowserModule
+  ],
+  declarations: [  
+    LoginInPageComponent,
+    AppComponent,],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
